@@ -974,8 +974,18 @@
             }
         }
 
-
+ 
         /* About us section */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
 
                 /* Semi Navbar */
         .semi-navbar {
@@ -1218,7 +1228,7 @@
             }
         }
 
-        * Company Content Section */
+        /* * Company Content Section */ */
         .company-content {
             background: white;
             padding: 60px 40px;
@@ -1500,4 +1510,4 @@
             .content-decoration {
                 display: none;
             }
-        }
+        } 
